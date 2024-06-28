@@ -71,3 +71,27 @@ This is a simple Flask application to manage users. It provides routes to add ne
 
 
 
+Task 2 : Database Interaction
+
+Prerequisites
+MySQL server installed
+MySQL client or any MySQL management tool (e.g., MySQL Workbench, phpMyAdmin)
+Steps and SQL Queries
+1. Create the Database
+Create the database named "users":
+2. Use the Database
+Switch to the "users" database:
+3. Create the "users" Table
+Create a table named "users" with the following columns:
+
+id (int, primary key)
+name (varchar)
+email (varchar)
+role (varchar)
+4. Insert Sample Data into the "users" Table
+Insert sample data into the "users" table:
+5. Retrieve All Users from the "users" Table
+Retrieve all users from the "users" table:
+6. Retrieve a Specific User by Their ID
+Retrieve a specific user by their ID (replace 1 with the desired user ID):
+
